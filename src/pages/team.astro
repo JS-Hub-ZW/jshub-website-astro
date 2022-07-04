@@ -6,8 +6,10 @@ export let title = "Team"
 
 /* Add Yourself to the array below to be displayed on the team page */
 const teamMembers = [
-    {name: "Panashe Banhire", role: "Computer Engineer | Front-End Developer", website: "", github: "", linkedin: "", },
-    {name: "James Midzi", role: "Developer | Writer | Tutor | Polyglot ", website: "https://mrmidzi.netllify.app", github: "https://github.com/Psypher1", linkedin: "https://linkedin.com/in/jamesmidzi", }
+    {name: "Takunda Madechangu", role: "", website: "https://taku.co.zw/", github: "https://github.com/takumade", linkedin: "", },
+    {name: "Panashe Banhire", role: "Computer Engineer | Front-End Developer", website: "https://panban.netlify.app/", github: "", linkedin: "", },
+    {name: "James Midzi", role: "Developer | Writer | Tutor | Polyglot ", website: "https://mrmidzi.netllify.app", github: "https://github.com/Psypher1", linkedin: "https://linkedin.com/in/jamesmidzi", },
+    {name: "Richson Simbabure", role: "Developer | Digital Marketing | Networking Engineer", website: "https://www.richson.co.zw/", github: "https://github.com/RSimmz98", linkedin: "", }
 ]
 ---
 
@@ -20,10 +22,12 @@ const teamMembers = [
         {teamMembers.map((member, index) => (
             <article class="p-6 shadow-xl" >
                 <h3 class="font-semibold">{member.name}</h3>
-                <p class="text-[.8rem] text-gray-700 mb-4">{member.role}</p>
+                <p class="text-[.8rem] text-gray-600 mb-4">{member?.role}</p>
 
-                <div class="flex text-sm text-gray-500">
-                    <a href={member?.github}>Github</a>
+                <div class="flex items-center gap-3 text-sm text-gray-500">
+                    <a href={member?.website} target="_blank" rel="noreferrer noopener">Website</a>
+                    <a href={member?.github} target="_blank" rel="noreferrer noopener">Github</a>
+                    <a href={member?.linkedin} target="_blank" rel="noreferrer noopener">LinkedIn</a>
                 </div>
             </article>
                 ))}
