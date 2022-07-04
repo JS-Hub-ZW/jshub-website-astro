@@ -1,20 +1,20 @@
 ---
 import BaseHead from "../components/BaseHead.astro";
 import Navigation from "../components/Navigation.astro";
+import Footer from "../components/Footer.astro";
 
 const {title="Js Hub Zim", description="JS Hub Website", permalink} = Astro.props;
 ---
 
 <html lang="en">
 	<head>
-		<!-- <link rel="stylesheet" href="../styles/tailwind.css"> -->
 		<BaseHead {title} {description} {permalink} />
 	</head>
-	<body class="container mx-auto font-body antialiased bg-gray-300">
+	<body class=" font-body antialiased bg-gray-300">
         <Navigation />
-		<main class="">
-
+		<main class="container mx-auto py-10 px-8 min-h-screen">
 		<slot/>
 		</main>
+		<Footer />
 	</body>
 </html>

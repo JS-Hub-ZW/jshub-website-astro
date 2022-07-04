@@ -9,16 +9,26 @@ const links = [
         url: '/about'
     },
     {
+        name: 'Portfolio',
+        url: '/portfolio'
+    },
+    {
         name: 'Team',
         url: '/team'
     }
 ]
 ---
 
-<header>
-    <nav>
-        {links.map(link => (
-            <a href={link.url}>{link.name}</a>
-        ))}
+<header class="bg-black text-gray-100 py-2">
+    <div class="container mx-auto">
+    <nav class="flex flex-col sm:flex-row items-center justify-between text-lg">
+        <a class=" font-semibold" href="/">JS HUB Zim</a>
+        <ul class="flex items-center gap-2 mt-2 sm:mt-0">
+
+            {links.map(link => (
+                <a class='block py-2 px-4 hover:bg-gray-600' href={link.url}>{link.name}</a>
+                ))}
+        </ul>
     </nav>
+</div>
 </header>

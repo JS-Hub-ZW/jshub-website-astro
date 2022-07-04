@@ -1,5 +1,5 @@
 ---
-// import '../styles/tailwind.css';
+import '../styles/tailwind.css';
 export interface Props{
     title: string;
     description?: string
@@ -9,15 +9,16 @@ export interface Props{
 const {title, description, permalink} = Astro.props;
 ---
 
-
 <!-- Global Metadata -->
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Language" content="en">
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=J, initial-scale=1.0" />
-<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="icon" type="image/icon" href="/favicon.ico" />
 
 <!-- Primary Meta Tags -->
-<title>{title}</title>
+<title>{title} - Js Hub Zim</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
 
