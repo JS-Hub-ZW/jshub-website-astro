@@ -25,6 +25,8 @@ I switched it to Astro to make it easier to maintain - raw HTML doesn't make sen
 - Run the server
   `yarn dev or npm run dev/start or pnpm dev/start`
 
+## ℹ Info
+
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
 There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
@@ -52,12 +54,12 @@ All commands are run from the root of the project, from a terminal:
 
 ## Shame
 
-1. Shamed on the person who does not respect others
-2. Shamed on the person who does not contribute
-3. Shamed on the person who does not follow the pattern
-4. Shamed on the person who does not follow the rules
-5. Shamed on the person who does not follow the guidelines
-6. Shamed on the person who abuses the cluster
+1. Shame on the person who does not respect others
+2. Shame on the person who does not contribute
+3. Shame on the person who does not follow the pattern
+4. Shame on the person who does not follow the rules
+5. Shame on the person who does not follow the guidelines
+6. Shame on the person who abuses the cluster
 
 ## Blessings
 
