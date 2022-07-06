@@ -1,5 +1,10 @@
 [
-  { "name": "Hackathon Board", "repo": "" },
-  { "name": "Heyoo", "repo": "" },
-  { "name": "Js Site", "repo": "" }
+  {
+    "name": "Hackathon Board",
+    "description": "",
+    "liveLink": "",
+    "sourceCode": ""
+  },
+  { "name": "Heyoo", "description": "", "liveLink": "", "sourceCode": "" },
+  { "name": "Js Site", "description": "", "liveLink": "", "sourceCode": "" }
 ]

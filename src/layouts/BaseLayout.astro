@@ -4,6 +4,8 @@ import Navigation from "../components/Navigation.astro";
 import Footer from "../components/Footer.astro";
 
 const {title="Js Hub Zim", description="JS Hub Website", permalink} = Astro.props;
+
+
 ---
 
 <html lang="en">
@@ -16,5 +18,12 @@ const {title="Js Hub Zim", description="JS Hub Website", permalink} = Astro.prop
 		<slot/>
 		</main>
 		<Footer />
+
+		<!-- ICONS -->
+		<script src="https://unpkg.com/lucide@latest"></script>
+		<!-- <script>
+			lucide.createIcons();
+		</script> -->
+	
 	</body>
 </html>

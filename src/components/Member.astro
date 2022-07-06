@@ -1,0 +1,22 @@
+---
+const {member} = Astro.props
+---
+
+<article>
+    <h3 class="font-semibold">{member.name}</h3>
+    <p class="text-[.8rem] text-gray-600 mb-4">{member?.role}</p>
+
+    <div class="flex items-center gap-3 text-sm text-gray-500">
+        <a href={member?.website} target="_blank" rel="noreferrer noopener">
+            <!-- <i icon-name="globe"></i> -->
+            <!-- <i class="fa-solid fa-earth-africa"></i> -->
+            <i class="fa-solid fa-globe"></i>
+        </a>
+        <a href={member?.github} target="_blank" rel="noreferrer noopener">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href={member?.linkedin} target="_blank" rel="noreferrer noopener">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </div>
+</article>
