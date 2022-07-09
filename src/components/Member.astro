@@ -3,27 +3,23 @@ import { Icon } from 'astro-icon'
 const {member} = Astro.props; 
 ---
 
-<article>
-    <h3 class="font-semibold">{member.name}</h3>
+<article class="p-6 shadow-xl" >
+    <h3 class="font-semibold text-gray-900">{member.name}</h3>
     <p class="text-[.8rem] text-gray-600 mb-4">{member?.role}</p>
 
-    <div class="flex items-center gap-3 text-sm text-gray-500">
-        <a href={member?.website} target="_blank" rel="noreferrer noopener" aria-label="Website link">
-            <!-- <i icon-name="globe"></i> -->
-            <!-- <Icon name="github" class='h-5 w-5'/> -->
-            <!-- <i class="fa-solid fa-earth-africa"></i> -->
-            <i class="fa-solid fa-globe"></i>
+    <div class="flex items-center gap-3 text-base text-blue-500">
+        <a href={member?.website} target="_blank" rel="noreferrer noopener">
+            <Icon name="globe" class='h-5 w-5'/>
         </a>
-        <a href={member?.github} target="_blank" rel="noreferrer noopener" aria-label="Github link">
-            <!-- <Icon name="mdi:github" /> -->
-            <!-- <Icon name="github" /> -->
-            <i class="fa-brands fa-github"></i>
+        <a href={member?.github} target="_blank" rel="noreferrer noopener">
+            <Icon name="github" class='h-5 w-5'/>
         </a>
-        <a href={member?.linkedin} target="_blank" rel="noreferrer noopener" aria-label="Linkedin link">
-            <i class="fa-brands fa-linkedin"></i>
+        <a href={member?.linkedin} target="_blank" rel="noreferrer noopener">
+            <Icon name="linkedin" class='h-5 w-5'/>
         </a>
-        <a href={member?.twitter} target="_blank" rel="noreferrer noopener" aria-label="Twitter link">
-            <i class="fa-brands fa-twitter"></i>
+        <a href={member?.twitter} target="_blank" rel="noreferrer noopener">
+            <Icon name="twitter" class='h-5 w-5'/>
         </a>
+     
     </div>
 </article>

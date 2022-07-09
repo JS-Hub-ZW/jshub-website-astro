@@ -4,7 +4,8 @@
     "role": "Developer | Writer | Tutor | Polyglot ",
     "website": "https://mrmidzi.netllify.app",
     "github": "https://github.com/Psypher1",
-    "linkedin": "https://linkedin.com/in/jamesmidzi"
+    "linkedin": "https://linkedin.com/in/jamesmidzi",
+    "twitter": "https://twitter.com/Psypher1/"
   },
   {
     "name": "Panashe Banhire",
@@ -25,6 +26,13 @@
     "role": "Developer | Digital Marketing | Networking Engineer",
     "website": "https://www.richson.co.zw/",
     "github": "https://github.com/RSimmz98",
+    "linkedin": ""
+  },
+  {
+    "name": "George Chakama",
+    "role": "",
+    "website": "",
+    "github": "https://github.com/gtchakama/",
     "linkedin": ""
   }
 ]
