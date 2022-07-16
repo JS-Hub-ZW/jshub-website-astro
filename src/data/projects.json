@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Hackathon Board",
+    "description": "A board to view and join hackathons",
+    "technologies": ["PayloadCMS", "Next.js"],
+    "liveLink": "https://hackathon-board.payloadcms.com",
+    "sourceCode": "https://github.com/Psypher1"
+  },
+  { "name": "Heyoo", "description": "", "liveLink": "", "sourceCode": "" },
+  {
+    "name": "Js Site",
+    "description": "The website for JsHub Zim",
+    "liveLink": "",
+    "sourceCode": ""
+  }
+]

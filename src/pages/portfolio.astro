@@ -2,21 +2,18 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 import portfolio from "../data/projects.json";
+import Project from "../components/Project.astro";
+
 
 let title = 'Portfolio';
 ---
 
 <BaseLayout {title}>
-    <h1 class="text-3xl font-semibold text-blue-600 mb-8">Portfolio</h1>
-    <section class="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {portfolio.map(item =>(
-            <article class="shadow-lg">
-                <h3>{item.name}</h3>
-                <div class="flex justify-between">
-                    <a href={item?.liveLink}>Live</a>
-                    <a href={item?.sourceCode}>Code</a>
-                </div>
-            </article>
+    <h1 class="text-3xl font-semibold text-brand5 mb-8">Portfolio</h1>
+    <section class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+        {portfolio.map(project => (
+            <Project project={project}/>
         ))}
+     
     </section>
 </BaseLayout>

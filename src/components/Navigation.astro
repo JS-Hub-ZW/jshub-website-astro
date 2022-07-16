@@ -19,14 +19,14 @@ const links = [
 ]
 ---
 
-<header class="bg-black text-gray-100 py-2">
+<header class="bg-brand5 text-gray-100 py-2">
     <div class="container mx-auto">
     <nav class="flex flex-col sm:flex-row items-center justify-between text-lg">
         <a class=" font-semibold" href="/">JS HUB Zim</a>
         <ul class="flex items-center gap-2 mt-2 sm:mt-0">
 
             {links.map(link => (
-                <a class='block py-2 px-4 hover:bg-gray-600 transition duration-300' href={link.url}>{link.name}</a>
+                <a class='block py-2 px-4 hover:font-semibold transition duration-300' href={link.url}>{link.name}</a>
                 ))}
         </ul>
     </nav>
