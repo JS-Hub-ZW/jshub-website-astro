@@ -1,7 +1,7 @@
 [
   {
     "name": "James Midzi",
-    "role": "Developer | Writer | Tutor | Polyglot ",
+    "role": "Half Stack Engineer | Writer | Tutor",
     "website": "https://mrmidzi.netllify.app",
     "github": "https://github.com/Psypher1",
     "linkedin": "https://linkedin.com/in/jamesmidzi",
@@ -11,17 +11,17 @@
     "name": "Panashe Banhire",
     "role": "Computer Engineer | Front-End Developer",
     "website": "https://panban.netlify.app/",
-    "github": "",
+    "github": "https://github.com/Nabel03",
     "linkedin": "",
-    "twitter": ""
+    "twitter": "https://twitter.com/panban03"
   },
   {
     "name": "Takunda Madechangu",
-    "role": "",
+    "role": "Fullstack Developer | DevOps",
     "website": "https://taku.co.zw/",
     "github": "https://github.com/takumade",
-    "linkedin": "",
-    "twitter": ""
+    "linkedin": "https://www.linkedin.com/in/tmadechangu",
+    "twitter": "https://twitter.com/takucoder"
   },
   {
     "name": "Richson Simbabure",
@@ -33,10 +33,10 @@
   },
   {
     "name": "George Chakama",
-    "role": "",
-    "website": "",
+    "role": "Developer",
+    "website": "https://chakama.co.zw/",
     "github": "https://github.com/gtchakama/",
-    "linkedin": "",
-    "twitter": ""
+    "linkedin": "https://linkedin.com/george-chakama-76739816b",
+    "twitter": "https://twitter.com/gtchakama"
   }
 ]
